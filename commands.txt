@@ -1,0 +1,3 @@
+django-admin startproject firstproject
+django-admin startapp firstapp - python .\manage.py startapp secondapp
+python .\manage.py runserver
