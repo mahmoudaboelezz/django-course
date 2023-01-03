@@ -10,11 +10,3 @@ def index(request):
         age = request.POST.get('age')
         return render(request,'users.html',{'message1':message,'age1':age})
     return render(request,'users.html')
-
-def calculate(request):
-    if request.method == 'POST':
-        number1 = request.POST.get('num1')
-        number2 = request.POST.get('num2')
-        result = int(number1) + int(number2)
-        return render(request,'calculater.html',{'result':result})
-    return render(request,'calculater.html')
