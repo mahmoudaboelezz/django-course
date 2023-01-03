@@ -1,4 +1,4 @@
-from django.shortcuts import HttpResponse,render
+from django.shortcuts import HttpResponse
 
 def greeting(request):
     # result = n1 * n2
@@ -19,7 +19,3 @@ def greeting(request):
 </html>'''
     
     return HttpResponse(html)
-
-#render html page from templates
-def renderpage(request):
-    return render(request,'index.html')

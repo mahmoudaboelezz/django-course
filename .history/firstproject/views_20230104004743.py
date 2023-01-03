@@ -22,4 +22,5 @@ def greeting(request):
 
 #render html page from templates
 def renderpage(request):
+
     return render(request,'index.html')

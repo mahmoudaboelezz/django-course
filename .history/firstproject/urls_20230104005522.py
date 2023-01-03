@@ -21,6 +21,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('greeting/',greeting),
     path('render',renderpage),
-   
-    path('app1/',include('firstapp.urls'))
+    print('',index)
 ]
