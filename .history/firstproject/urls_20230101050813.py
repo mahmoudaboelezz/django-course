@@ -19,5 +19,5 @@ from .views import greeting
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('greeting/<int:n1>/<int:n2>',greeting)
+    path('/greeting',greeting)
 ]
